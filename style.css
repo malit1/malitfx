@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;}
+    .header{
+    max-width: 90vw;
+    height: fit-content;
+    padding: 15px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between; flex-wrap: wrap;
+    }
+    .logo{ display: flex;
+       flex-basis: 30%;}
+       h2{   font-weight: 300;}
+       nav{
+           flex: 40%; 
+       }
+       nav ul{
+           display: flex;
+list-style-type: none;} 
+nav ul li a{ text-decoration: none; color: black; font-size: 1.3rem; padding: 15px; margin-right: 8px;}
+nav ul li a:hover{ background-color: rgb(240, 240, 240); border-radius: 10px;}
+nav ul li{ padding-top: 10px; }
+ nav ul li .contact-btn{
+     background-color: black; 
+     color: white; 
+     border-radius: 10px;}
+
+nav ul li{ padding-top: 10px; } 
+nav ul li .contact-btn{
+     background-color:white;
+     color:black; 
+     border: 
+     0.5px solid  
+     black;}
+/*global */
+.logo-text{
+color: steelblue; font-weight: 500; margin: 3px;}
+.active-link{ border-bottom: 3px solid #fce6bf;}
+a{ text-decoration: none;}
+/*hero section*/
+.hero{ background-color: #d5adc8;  background-image: -o-linear-gradient  (315deg,#d5adc8 0%,#f5bbbd 74%);
+    height: 400px; display: flex;justify-content: center; align-items: center;}
+    .hero h1{ background-color: #f5f9ff;  color: black;}
+
+/*showcase section*/
+.container{ width: 90vh; margin: auto;}
+.row{ display:flex;
+
+}
